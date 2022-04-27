@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="icon" type="image/png" href="assets/img/favicon-16x16.png">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet"> 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/f842b1a803.js" crossorigin="anonymous"></script>
+    <title>CUPPON</title>
+
+</head>
+<body>
+        <!-- Utilizamos container-fluid para usar el ancho completo  -->
+        <div class="container-fluid p-0">
+            <!-- Barra de navegación -->
+            <nav class="navbar navbar-expand-sm navbar-dark bg-success fixed-top p-1">
+                <!-- Utilizamos container-fluid para usar el ancho completo  -->
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#">CUPPON</a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ms-auto">    
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Features</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Pricing</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav> 
+            
+            <!-- Declaramos 1er container para 1era fila  -->
+            <div class="container-fluid p-md-3 m-xs-12 m-sm-12 m-md-12 m-lg-3 m-xl-3 m-xxl-3">
+                
+                <!-- <Declaramos 1era clase row para nuestra primera fila, que contendrá nuestras 3 col en ancho lg, xl y xxl, 2 col en anchos md y 1 col en anchos pequeños. Tambien padding 5 (p5) para separar row del fixed navbar-->
+                    <div class="row p-5 p-lg-3 p-md-3 justify-content-center">
+                        
+                             <!-- <Declaramos 1era columna que contendrá 1era card con tamaños mobile=12 usando ancho completo, y para desk en 3, se agrega padding=3 (p-3) para lograr efecto de separado de cards-->
+                            <div class="p-1 col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                                <div class="card h-100">
+                                    <img src="/assets/img/1.-plumon.jpg" class="card-img img-fluid rounded mx-auto d-block" alt="foto plumon">
+                                    <div class="card-body h-100 d-inline-block">
+                                        <h5  class="card-title">Plumón Coral Fleece estampado en modelo y tamaño a elección</h5>
+                                        <h6>Plumones Manolino</h6>
+                                        <h6><i class="fas fa-map-marker-alt"></i> 9191 Avenida Vitacura, Chile</h6>
+                                        <hr/>     
+                                        <div class="row g-0 justify-content-center">
+                                            <div class="col col-sm-8 col-lg-4 text-end py-1">
+                                                <h6 class="oferta"> $45.990</h6>
+                                            </div>
+                                            <div class="col col-sm-4 col-lg-8 text-center">
+                                                <h5 class="text-success">$22.990 </h5>
+                                            </div>        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <!-- <Declaramos 2da columna que contendrá 2da card con tamaños mobile=12 usando ancho completo, y para desk en 3, se agrega padding=3 (p-3) para lograr efecto de separado de cards -->
+                            <div class="p-1 col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                                <div class="card h-100">
+                                    <img src="/assets/img/2.-Entrada.jpg" class="card-img img-fluid rounded mx-auto d-block" alt="foto comida">
+                                    <div class="card-body h-100 d-inline-block">
+                                        <h5  class="card-title">Entrada para compartir + platos de fondo + postres + bebestibles</h5>
+                                        <h6>V for Vegan</h6>
+                                        <h6><i class="fas fa-map-marker-alt"></i> 777 Jesse Pinkman, Chile</h6>
+                                        <hr/>     
+                                        <div class="row g-0 justify-content-center">
+                                            <div class="col col-sm-8 col-lg-4 text-end py-1">
+                                                <h6 class="oferta">$30.990</h6>
+                                            </div>
+                                            <div class="col col-sm-4 col-lg-8 text-center">
+                                                <h5 class="text-success">$12.990</h5>
+                                            </div>        
+                                        </div>
+                                    </div>
+                                </div>
+                             </div> <!-- fin  col-->
+                                
+                                
+                            <!-- <Declaramos 3era columna que contendrá 3era card con tamaños mobile=12 usando ancho completo, y para desk en 3, se agrega padding=3 (p-3) para lograr efecto de separado de cards -->
+                            <div class="p-1 col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                                <div class="card h-100">
+                                    <img src="/assets/img/3.-dental.jpg" class="card-img img-fluid rounded mx-auto d-block" alt="foto dentista">
+                                    <div class="card-body h-100 d-inline-block">
+                                        <h5  class="card-title">Evaluación integral + blanqueamiento dental led + limpieza + fluoración</h5>
+                                        <h6>Clínica Dental Quijada</h6>
+                                        <h6><i class="fas fa-map-marker-alt"></i> 1342, Blanco Encalada, Chile</h6>
+                                        <hr/>
+                                        <div class="row g-0 justify-content-center">
+                                            <div class="col col-sm-8 col-lg-4 text-end py-1">
+                                                <h6 class="oferta">$300.000</h6>
+                                            </div>
+                                            <div class="col col-sm-4 col-lg-8 text-center">
+                                                <h5 class="text-success">$25.990</h5>
+                                            </div>        
+                                        </div>
+                                    </div>
+                                </div>
+                            </div> <!-- fin col -->
+                            
+                     </div><!-- Cierre row 1era fila-->
+                                
+                    <!-- <Declaramos 2era clase row para nuestra segunda fila, que contendrá nuestras 3 col en ancho lg, xl y xxl, 2 col en anchos md y 1 col en anchos pequeños-->
+                    <div class="row p-5 p-lg-3 p-md-3 justify-content-center">
+                                
+                                    <!-- <Declaramos 1era columna que contendrá 1era card con tamaños mobile=12 usando ancho completo, y para desk en 3, se agrega padding=3 (p-3) para lograr efecto de separado de cards -->
+                                    <div class="p-1 col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                                        <div class="card h-100">
+                                            <img src="/assets/img/4.-comidacasera.jpg" class="card-img img-fluid rounded mx-auto d-block" alt="foto comida">
+                                            <div class="card-body h-100 d-inline-block">
+                                                <h5  class="card-title">Colación para 2 personas + postre (no incluye bebidas)</h5>
+                                                <h6>Suricata almacen</h6>
+                                                <h6><i class="fas fa-map-marker-alt"></i> 1071 Miguel Claro, Chilee</h6>
+                                                <hr/>     
+                                                <div class="row g-0 justify-content-center">
+                                                    <div class="col col-sm-8 col-lg-4 text-end py-1">
+                                                        <h6 class="oferta"> $4.200</h6>
+                                                    </div>
+                                                    <div class="col col-sm-4 col-lg-8 text-center">
+                                                        <h5 class="text-success">$2.100 </h5>
+                                                    </div>        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                            
+                                    <!-- <Declaramos 2da columna que contendrá 2da card con tamaños mobile=12 usando ancho completo, y para desk en 3, se agrega padding=3 (p-3) para lograr efecto de separado de cards -->
+                                    <div class="p-1 col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                                        <div class="card h-100">
+                                            <img src="/assets/img/5.-ParqueDiversion.jpg" class="card-img img-fluid rounded mx-auto d-block" alt="foto parque de diversiones">
+                                            <div class="card-body h-100 d-inline-block">
+                                                <h5 class="card-title">1, 2 o 4 tickets para Stukids. Elige sucursal</h5>
+                                                <h6>Stukids Centro de Eventos</h6>
+                                                <h6><i class="fas fa-map-marker-alt"></i> 133 El tranque, Chile</h6>
+                                                <hr/>     
+                                                <div class="row g-0 justify-content-center">
+                                                    <div class="col col-sm-8 col-lg-4 text-end py-1">
+                                                        <h6 class="oferta">$30.990</h6>
+                                                    </div>
+                                                    <div class="col col-sm-4 col-lg-8 text-center">
+                                                        <h5 class="text-success">$12.990</h5>
+                                                    </div>        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- fin col-->
+                                    
+                                    <!-- <Declaramos 3era columna que contendrá 3era card con tamaños mobile=12 usando ancho completo, y para desk en 3, se agrega padding=3 (p-3) para lograr efecto de separado de cards -->
+                                    <div class="p-1 col-xs-12 col-sm-12 col-md-3 col-lg-3 col-xl-3 col-xxl-3">
+                                        <div class="card h-100">
+                                            <img src="/assets/img/6.-sanpedro.jpg" class="card-img img-fluid rounded mx-auto d-block" alt="foto viajes">
+                                            <div class="card-body h-100 d-inline-block">
+                                                <h5  class="card-title">San Pedro de Atacama: 1 o 2 noches en alojamiento a elección</h5>
+                                                <h6>D-Latam Travel</h6>
+                                                <hr/>  
+                                                <div class="row g-0 justify-content-center">
+                                                    <div class="col col-sm-8 col-lg-4 text-end py-1">
+                                                        <h6 class="oferta">80.200</h6>
+                                                    </div>
+                                                    <div class="col col-sm-4 col-lg-8 text-center">
+                                                        <h5 class="text-success">$44.100</h5>
+                                                    </div>        
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div> <!-- fin col-->
+                     </div> <!-- Cierre row 2era fila-->
+             </div> <!-- FIN container-fluid -->   
+             <!-- INICIO aquí va otro container-fluid para la parte inferior -->
+             <div class="container-fluid p-0">
+                <div class="bg-success">
+                    <div class ="text-center">
+                        <h5 class="text-white pb-2 pt-4">Recibe cupones en tu correo</h5>
+                        <form class="px-xs-0 px-md-5">
+                            <input class="form-control mb-2" type="text" placeholder="Nombre">
+                            <input class="form-control mb-2" type="email" placeholder="Correo electronico">
+                            <button type="button-send" class="btn btn-light mb-3 fw-bold">Enviar</button>
+                        </form> 
+                    </div> 
+                    
+                    <div class="bg-white text-center pt-4">
+                        <h3 ><img src="assets/img/logo-cuppon-black.png" class="logo" alt="logo"></h3>
+                        <h6>(c) Cuppon Latam. Todos los derechos reservados</h6>
+                    </div>
+                    
+                </div>
+            </div>  <!-- FIN container-fluid para la parte inferior --> 
+        </div>   <!-- FIN container-fluid p-0 para la body--> 
+                                        
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>

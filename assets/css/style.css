@@ -1,0 +1,60 @@
+h6{
+    font-weight:300 !important;
+    color: #707070 !important;
+    opacity: 100% !important;
+}
+/*
+p{
+    font-size: 30px;
+} */
+
+img{
+    width: 278 !important;
+    height: 180 !important;
+}
+
+ body{
+    font-family: 'Roboto', sans-serif !important;
+} 
+
+.oferta {
+    /*text-decoration:line-through;*/
+    color: gray !important;
+}
+button{
+    
+    font-family: 'Roboto Serif', sans-serif !important;
+}
+
+a:hover{
+    
+    color: rgb(11, 73, 73) !important;
+}
+
+.logo {
+    width: 82pt;
+    height: 24pt;
+}
+
+.button-send{
+    color:#212529 !important;
+}
+
+.card-img{
+    height: 180pt !important;
+    width: 278pt !important;
+    background-size: cover !important   ;
+}
+
+.card-tittle{
+    font-family: 'Roboto' !important;
+    color: #212529 !important;
+    font-size: 20pt !important;
+    
+}
+
+@media (max-width: 991pt){
+    .row{
+        scrollbar-gutter: auto !important;
+    }
+}
